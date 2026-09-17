@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 2rem 1rem;
+  background: radial-gradient(circle at top, #50555b, #17191c 70%);
+  font-family: Arial, sans-serif;
+}
+
+.centro {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+p.etiqueta {
+  display: inline-block;
+  margin: 1rem 0 0.25rem;
+  padding: 10px 60px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+}
+
+.data-lerroa {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 5.5rem;
+  padding: 0.3rem;
+  border: 2px solid #555;
+  border-radius: 4px;
+  background-color: black;
+  font-family: "Courier New", monospace;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+input.verde {
+  color: #25e625;
+}
+
+input.rojo {
+  color: #ff3030;
+}
+
+button {
+  margin: 1.5rem 0 1rem;
+  padding: 0.7rem 1.2rem;
+  border: 0;
+  border-radius: 4px;
+  background-color: #d5d5d5;
+  color: #111;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: white;
+}
+
+p#mensaje {
+  min-height: 1.5rem;
+  margin: 0;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  input {
+    width: 4.5rem;
+  }
+}
